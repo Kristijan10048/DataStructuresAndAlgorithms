@@ -39,11 +39,44 @@ namespace BinarySearch
 
             return true;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="value"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <returns></returns>
+        private static bool BinarySearchRec(ref int[] arr, int value, int low, int high)
+        {
+            int pos = (low + high) / 2;
+
+            if (arr[pos] == value)
+            {
+                Console.WriteLine("Recursive Hit! pos = {0}, value = {1}", pos, value);
+                return true;
+            }
+            else if (high < low)
+                return false;
+            else
+            {
+                if (value < arr[pos])
+                    high = pos;
+                else
+                    low = pos;
+
+                return BinarySearchRec(ref arr, value, low, high);
+            }
+        }
         static void Main(string[] args)
         {
             int[] tmp = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             BinarySearch(tmp, 6);
             BinarySearch(tmp, 2);
+
+            BinarySearchRec(ref tmp, 6,0, tmp.Length -1);
+            BinarySearchRec(ref tmp, 2, 0, tmp.Length - 1);
 
             Console.ReadKey();
         }
