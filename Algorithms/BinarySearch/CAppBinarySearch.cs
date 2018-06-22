@@ -69,14 +69,32 @@ namespace BinarySearch
                 return BinarySearchRec(ref arr, value, low, high);
             }
         }
+
         static void Main(string[] args)
         {
             int[] tmp = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //start stopwatch
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             BinarySearch(tmp, 6);
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
+
+            Console.WriteLine("Execution time :{0} ms", elapsedMs);
             BinarySearch(tmp, 2);
 
+            //execute recursive bin search
             BinarySearchRec(ref tmp, 6,0, tmp.Length -1);
+
+            //start stopwatch
+            watch = System.Diagnostics.Stopwatch.StartNew();
+
+            //execute recursive bin search
             BinarySearchRec(ref tmp, 2, 0, tmp.Length - 1);
+
+            //get the timing
+            elapsedMs = watch.ElapsedMilliseconds;
+            Console.WriteLine("Execution time :{0} ms", elapsedMs);
 
             Console.ReadKey();
         }
