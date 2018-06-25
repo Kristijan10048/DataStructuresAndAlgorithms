@@ -59,7 +59,15 @@ namespace BinarySearch
                 return true;
             }
             else if (high < low)
+            {
+                Console.WriteLine("Recursive fail! l = {0}, h = {1}, value = {2}", low, high, value);
                 return false;
+            }
+            else if (high == low)
+            {
+                Console.WriteLine("Recursive fail! l = {0}, h = {1}, value = {2}", low, high, value);
+                return false;
+            }
             else
             {
                 if (value < arr[pos])
@@ -80,14 +88,16 @@ namespace BinarySearch
 
         static void Main(string[] args)
         {
+            //simple test array
             int[] tmp = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
+            //generate large sorted array
             int[] tmp1= null;
             GenerateSortedArray(ref tmp1, 1000000);
 
             //start stopwatch
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            BinarySearch(tmp1, 9999);
+            BinarySearch(tmp1, -9999);
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
 
@@ -95,13 +105,13 @@ namespace BinarySearch
             BinarySearch(tmp, 2);
 
             //execute recursive bin search
-            BinarySearchRec(ref tmp, 6, 0, tmp.Length -1);
+            BinarySearchRec(ref tmp, -6, 0, tmp.Length -1);
 
             //start stopwatch
             var watch1 = System.Diagnostics.Stopwatch.StartNew();
 
             //execute recursive bin search
-            BinarySearchRec(ref tmp1, 9999, 0, tmp1.Length - 1);
+            BinarySearchRec(ref tmp1, -9999, 0, tmp1.Length - 1);
 
             //get the timing
             var elapsedMs1 = watch.ElapsedMilliseconds;
