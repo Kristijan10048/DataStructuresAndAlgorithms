@@ -8,6 +8,11 @@ namespace Factorial
 {
     class CAppFactorial
     {
+        /// <summary>
+        /// Write a recursive static method that computes the value of  (N !)
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         private static int Fact(int n)
         {
             if (n == 0)
