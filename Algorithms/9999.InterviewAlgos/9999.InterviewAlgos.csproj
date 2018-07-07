@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="CAppMain.cs" />
     <Compile Include="Ch1_ArraysAndStrings\CAppDeleteDuplInLinkedList.cs" />
+    <Compile Include="Ch1_ArraysAndStrings\CAppIsRotationString.cs" />
+    <Compile Include="Ch1_ArraysAndStrings\CAppIsUniqueChars.cs" />
+    <Compile Include="Ch1_ArraysAndStrings\CAppPalindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
