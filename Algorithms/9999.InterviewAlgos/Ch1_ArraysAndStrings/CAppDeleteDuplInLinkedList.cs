@@ -81,7 +81,7 @@ namespace _9999.InterviewAlgos.Ch1_ArraysAndStrings
             }
         }
 
-        public static void TestIt()
+        public static void Check()
         {
             MyList myList = new MyList();
 

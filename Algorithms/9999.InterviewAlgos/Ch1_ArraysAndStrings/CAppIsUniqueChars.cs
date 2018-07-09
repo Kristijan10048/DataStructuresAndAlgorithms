@@ -27,6 +27,11 @@ namespace _9999.InterviewAlgos.Ch1_ArraysAndStrings
             return true;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
         public bool CheckAgain(string str)
         {
             int checker = 0;
@@ -37,6 +42,8 @@ namespace _9999.InterviewAlgos.Ch1_ArraysAndStrings
                 {
                     return false;
                 }
+
+                //TODO WTF is this
                 checker |= (1 << val);
             }
             return true;
