@@ -153,6 +153,31 @@ namespace _11.Sorting
 
         static void Main(string[] args)
         {
+            //const int n = 25;
+            //Random rnd = new Random();
+            //int[] arr = new int[n];
+            //for (int i = 0; i < arr.Length; i++)
+            //    arr[i] = rnd.Next(21);
+            //Console.WriteLine("Array before sorting:");
+            //PrintArr(ref arr);
+            //Console.WriteLine("----------------------");
+            //Console.WriteLine("Array after sorting:");
+            //ShellSort(ref arr);
+            //PrintArr(ref arr);
+            //Console.WriteLine("----------------------");
+            //int k = 0;
+            //for (int i = 0; i < 5; i++)
+            //    Console.WriteLine("K : {0}", k++);
+            //InsertionVsSelection();
+
+            TestQuickSort();
+
+            Console.WriteLine("Press any key to end...");
+            Console.ReadKey();
+        }
+
+        private static void TestMergeSort()
+        {
             const int n = 25;
             Random rnd = new Random();
             int[] arr = new int[n];
@@ -160,32 +185,36 @@ namespace _11.Sorting
             for (int i = 0; i < arr.Length; i++)
                 arr[i] = rnd.Next(21);
 
-            //Console.WriteLine("Array before sorting:");
-            //PrintArr(ref arr);
-            //Console.WriteLine("----------------------");
 
-            //Console.WriteLine("Array after sorting:");
-            //ShellSort(ref arr);
-            //PrintArr(ref arr);
-            //Console.WriteLine("----------------------");
-
-            int k = 0;
-            for (int i = 0; i < 5; i++)
-                Console.WriteLine("K : {0}", k++);
-
-            //InsertionVsSelection();
             CAppMergeSort mergeS = new CAppMergeSort();
-
-            arr = new int[10];
-
-            for (int i = 0; i < arr.Length; i++)
-                arr[i] = rnd.Next(arr.Length);
 
 
             mergeS.TopDownMergeSort(ref arr);
 
             PrintArr(ref arr);
-            Console.ReadKey();
+        }
+
+        private static void TestQuickSort()
+        {
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("Quick sort");
+
+            CAppQuickSort qs = new CAppQuickSort();
+            const int C_MAX_RND = 100;
+            Random rnd = new Random();
+
+
+            int[] arr = { 0, 1, 2, 3, 1, 4, 5, 6, 1 };//= new int[10];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //    arr[i] = rnd.Next(C_MAX_RND);
+
+            Console.WriteLine("Before quick sort:");
+            PrintArr(ref arr);
+            qs.Sort(ref arr);
+            Console.WriteLine("After quick sort:");
+            PrintArr(ref arr);
+            Console.WriteLine("-----------------------------------");
         }
     }
 }

@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CAppMergeSort.cs" />
+    <Compile Include="CAppQuickSort.cs" />
     <Compile Include="CAppSorting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -115,8 +115,6 @@ namespace _11.Sorting
             // Sort right part a[j+1 .. hi].
             Sort(ref a, j + 1, hi, indent+ "\t");
 
-            
-
             Console.WriteLine(indent + "--End call Sort(arr, {0}, {1})", lo, hi);
             Console.WriteLine(indent + "*****************************");
         }

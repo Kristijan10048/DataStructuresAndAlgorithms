@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.LinkedLists", "10.Linked
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Sorting", "11.Sorting\11.Sorting.csproj", "{EC63F52A-FB43-4B20-877E-E5CBF34CA519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9999.InterviewAlgos", "9999.InterviewAlgos\9999.InterviewAlgos.csproj", "{F26776B2-D61D-47E9-B5C1-BBF36F870282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{EC63F52A-FB43-4B20-877E-E5CBF34CA519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC63F52A-FB43-4B20-877E-E5CBF34CA519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC63F52A-FB43-4B20-877E-E5CBF34CA519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26776B2-D61D-47E9-B5C1-BBF36F870282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26776B2-D61D-47E9-B5C1-BBF36F870282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26776B2-D61D-47E9-B5C1-BBF36F870282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26776B2-D61D-47E9-B5C1-BBF36F870282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
