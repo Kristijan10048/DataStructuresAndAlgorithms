@@ -50,6 +50,9 @@
     <Compile Include="Ch1_ArraysAndStrings\CAppPalindrome.cs" />
     <Compile Include="Ch1_ArraysAndStrings\CAppPermutationGenerator.cs" />
     <Compile Include="Ch1_ArraysAndStrings\CAppReplaceSpace.cs" />
+    <Compile Include="Ch2_LinkedLists\CAppCircList.cs" />
+    <Compile Include="Ch2_LinkedLists\CAppIsLinkedListPalindrome.cs" />
+    <Compile Include="Ch2_LinkedLists\CAppRemoveMiddleNodeInList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
