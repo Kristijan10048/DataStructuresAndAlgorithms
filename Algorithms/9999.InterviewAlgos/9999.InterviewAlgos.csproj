@@ -53,6 +53,9 @@
     <Compile Include="Ch2_LinkedLists\CAppCircList.cs" />
     <Compile Include="Ch2_LinkedLists\CAppIsLinkedListPalindrome.cs" />
     <Compile Include="Ch2_LinkedLists\CAppRemoveMiddleNodeInList.cs" />
+    <Compile Include="CompanyInterview\CAppMajorityElement.cs" />
+    <Compile Include="CompanyInterview\CAppSumOfDigits.cs" />
+    <Compile Include="CompanyInterview\CAppSumOfTwoLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

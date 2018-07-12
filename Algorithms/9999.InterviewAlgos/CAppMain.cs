@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using _9999.InterviewAlgos.Ch1_ArraysAndStrings;
 using _9999.InterviewAlgos.Ch2_LinkedLists;
+using _9999.InterviewAlgos.CompanyInterview;
+
 
 namespace _9999.InterviewAlgos
 {
@@ -38,6 +40,26 @@ namespace _9999.InterviewAlgos
             //1234321
             CAppIsLinkedListPalindrome.Check();
 
+            //Given a non-negative integer num,   add all its digits until the result has only one digit.
+
+            //For example:
+            //Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it.
+
+            //Follow up:
+            //Could you do it without any loop/recursion in O(1) runtime?
+            CAppSumOfDigits.Check();
+
+            //Given an array of size n, find the majority element. 
+            //The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+            //You may assume that the array is non-empty and the majority element always exist in the array.
+            CAppMajorityElement.Check();
+
+            // You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. 
+            // Add the two numbers and return it as a linked list.
+            // You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+            // Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+            // Output: 7 -> 0 -> 8
+            CAppSumOfTwoLists.Check();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
@@ -75,7 +97,7 @@ namespace _9999.InterviewAlgos
         }
 
         /// <summary>
-        ///   Implement an algorithm to determine if a string has all unique characters. 
+        ///Implement an algorithm to determine if a string has all unique characters. 
         ///What if you cannot use additional data structures?
         /// </summary>
         private static void UniqueChars()
