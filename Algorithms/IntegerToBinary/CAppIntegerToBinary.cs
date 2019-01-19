@@ -8,6 +8,11 @@ namespace Algorithms
 {
     class CAppIntegerToBinary
     {
+        /// <summary>
+        /// Converts integer to binary representation
+        /// </summary>
+        /// <param name="n">Integer N to convert</param>
+        /// <returns>A string with a binary representation of int N</returns>
         private static string ToBin(int n)
         {
             string buffer = string.Empty;
