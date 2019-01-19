@@ -28,11 +28,11 @@ namespace Transposition
         }
 
         /// <summary>
-        /// 
+        /// A transpose function
         /// </summary>
-        /// <param name="mat"></param>
-        /// <param name="rows"></param>
-        /// <param name="cols"></param>
+        /// <param name="mat">A matrix to transpose</param>
+        /// <param name="rows">number of rows in a matrix</param>
+        /// <param name="cols">number of colums in a matrix</param>
         /// <returns></returns>
         private static int[,] Transpose(ref int[,] mat, int rows, int cols)
         {
@@ -66,11 +66,14 @@ namespace Transposition
                     counter++;
                 }
 
+            //print matrix before transposeing
             PrintMatrix(ref mat, C_ROWS, C_COLS);
 
             Console.WriteLine("Transpose");
+            //transpose function call
             mat = Transpose(ref mat, C_ROWS, C_COLS);
 
+            //print the matrix after transpose
             PrintMatrix(ref mat, C_ROWS, C_COLS);
             Console.ReadKey();
         }
