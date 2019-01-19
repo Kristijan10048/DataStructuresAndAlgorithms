@@ -9,10 +9,10 @@ namespace BinarySearch
     class CAppBinarySearch
     {
         /// <summary>
-        /// 
+        /// Implementation of binary search in a array
         /// </summary>
-        /// <param name="arr"></param>
-        /// <param name="value"></param>
+        /// <param name="arr">Array to search in</param>
+        /// <param name="value">A value to search in the array</param>
         /// <returns></returns>
         private static bool BinarySearch(int[] arr, int value)
         {
@@ -42,12 +42,12 @@ namespace BinarySearch
         }
 
         /// <summary>
-        /// 
+        /// Recursive binary search implementation in a array
         /// </summary>
-        /// <param name="arr"></param>
-        /// <param name="value"></param>
-        /// <param name="low"></param>
-        /// <param name="high"></param>
+        /// <param name="arr">Array to search in</param>
+        /// <param name="value">A value to search</param>
+        /// <param name="low">Low boundary</param>
+        /// <param name="high">High boundary</param>
         /// <returns></returns>
         private static bool BinarySearchRec(ref int[] arr, int value, int low, int high)
         {
