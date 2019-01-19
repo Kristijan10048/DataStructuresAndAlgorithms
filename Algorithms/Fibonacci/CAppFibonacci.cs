@@ -9,7 +9,7 @@ namespace Fibonacci
     class CAppFibonacci
     {
         /// <summary>
-        /// 
+        /// Recursive implementation on fibonaci sequence
         /// </summary>
         /// <param name="n"></param>
         private static int F(int n)
@@ -30,6 +30,7 @@ namespace Fibonacci
         {
             for(int i = 0; i<=10; i++)
             {
+                //a simple call to fibonaci 
                 Console.Write(F(i) + " ");
             }
 
