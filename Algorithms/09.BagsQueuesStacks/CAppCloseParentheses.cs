@@ -8,22 +8,18 @@ namespace _09.BagsQueuesStacks
 {
     class CAppCloseParentheses
     {
-        #region Private Members
-        string m_sExpr = string.Empty;
-        #endregion
-
         #region Constructors
         /// <summary>
-        /// 
+        /// Constructor
         /// </summary>
         /// <param name="sExp"></param>
         public CAppCloseParentheses(string sExp)
         {
-            m_sExpr = sExp;
+            Expression = sExp;
         }
 
         /// <summary>
-        /// 
+        /// Constructor
         /// </summary>
         public CAppCloseParentheses()
         {
@@ -32,16 +28,16 @@ namespace _09.BagsQueuesStacks
         #endregion
 
         #region Public Properties
-        public string Expression
-        {
-            get { return m_sExpr; }
-            set { m_sExpr = value; }
-        }
+        /// <summary>
+        /// Expression property
+        /// </summary>
+        public string Expression { get; set; } = string.Empty;
         #endregion
 
         #region Public Methods
         /// <summary>
-        /// 
+        /// Check if parntheses are closed or not of a given string. 
+        /// Implementation is with stack
         /// </summary>
         /// <returns></returns>
         public string CloseParentheses()
