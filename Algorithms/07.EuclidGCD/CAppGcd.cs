@@ -9,10 +9,10 @@ namespace _07.EuclidGCD
     class CAppGcd
     {
         /// <summary>
-        /// 
+        /// Recursivly find greatest common divider a.k.a. GCD p % q = r (remainder)
         /// </summary>
-        /// <param name="p"></param>
-        /// <param name="q"></param>
+        /// <param name="p">devident</param>
+        /// <param name="q">devider</param>
         /// <returns>GCD</returns>
         private static int Gcd(int p, int q)
         {
