@@ -8,6 +8,14 @@ namespace _08.BinomialDistro
 {
     class CAppBinomial
     {
+        /// <summary>
+        /// Binomial distribution. I need to check what it is.
+        /// </summary>
+        /// <param name="N"></param>
+        /// <param name="k"></param>
+        /// <param name="p"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public static double Binomial(int N, int k, double p, int i = 1)
         {
             Console.WriteLine("{0}. N = {1}, k = {2}",i, N, k);
