@@ -14,7 +14,7 @@ namespace _09.BagsQueuesStacks
         #endregion
 
         /// <summary>
-        /// 
+        /// Constructor
         /// </summary>
         /// <param name="number"></param>
         public CAppDecToBinWithStack(int number)
@@ -22,6 +22,11 @@ namespace _09.BagsQueuesStacks
             m_numb = number;
         }
 
+        /// <summary>
+        /// Convert integer decade to binary representation
+        /// </summary>
+        /// <param name="number">A number to convert</param>
+        /// <returns>String representation</returns>
         public string ToBin(int number)
         {
             Stack<int> stackBuff = new Stack<int>();
