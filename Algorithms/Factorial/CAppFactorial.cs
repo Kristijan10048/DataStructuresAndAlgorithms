@@ -21,6 +21,8 @@ namespace Factorial
                 return 1;
             else return n * Fact(n - 1);
         }
+
+
         static void Main(string[] args)
         {
             for (int i = 0; i < 10; i++)
