@@ -59,7 +59,10 @@ namespace _9999.InterviewAlgos
             // You may assume the two numbers do not contain any leading zero, except the number 0 itself.
             // Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
             // Output: 7 -> 0 -> 8
-            CAppSumOfTwoLists.Check();
+            ///CAppSumOfTwoLists.Check();
+            
+            //prints all prime numbers for 1 to 1000
+            CAppPrimeNumbers.PrimeNumbers();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F26776B2-D61D-47E9-B5C1-BBF36F870282}</ProjectGuid>
+    <ProjectGuid>{73076904-D8C3-4ECE-B923-E43B9F9C8180}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_9999.InterviewAlgos</RootNamespace>
-    <AssemblyName>9999.InterviewAlgos</AssemblyName>
+    <RootNamespace>_15.Trees</RootNamespace>
+    <AssemblyName>_15.Trees</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,23 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAppMain.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppDeleteDuplInLinkedList.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppFindKthElementInLinkedList.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppIsRotationString.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppIsUniqueChars.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppPalindrome.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppPermutationGenerator.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppPrimeNumbers.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\CAppReplaceSpace.cs" />
-    <Compile Include="Ch1_ArraysAndStrings\Class1.cs" />
-    <Compile Include="Ch2_LinkedLists\CAppCircList.cs" />
-    <Compile Include="Ch2_LinkedLists\CAppIsLinkedListPalindrome.cs" />
-    <Compile Include="Ch2_LinkedLists\CAppRemoveMiddleNodeInList.cs" />
-    <Compile Include="CompanyInterview\CAppMajorityElement.cs" />
-    <Compile Include="CompanyInterview\CAppSumOfDigits.cs" />
-    <Compile Include="CompanyInterview\CAppSumOfTwoLists.cs" />
-    <Compile Include="LeftRotation.cs" />
+    <Compile Include="CAppMyBinTree.cs" />
+    <Compile Include="CAppTreesMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9999.InterviewAlgos", "9999
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.Trees", "15.Trees\15.Trees.csproj", "{73076904-D8C3-4ECE-B923-E43B9F9C8180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FDC1E2-8260-41C0-95AB-2ADFA5D3EB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73076904-D8C3-4ECE-B923-E43B9F9C8180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73076904-D8C3-4ECE-B923-E43B9F9C8180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73076904-D8C3-4ECE-B923-E43B9F9C8180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73076904-D8C3-4ECE-B923-E43B9F9C8180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
