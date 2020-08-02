@@ -1,1 +1,12 @@
 /API_Documentation/
+*.exe
+/Algorithms/11.Sorting/obj/
+/Algorithms/15.Trees/obj/
+/Algorithms/Transposition/obj/
+/Algorithms/Tests/bin/
+/Algorithms/IntegerToBinary/obj/
+/Algorithms/Histogram/obj/
+/Algorithms/Fibonacci/obj/
+/Algorithms/Factorial/obj/
+/Algorithms/Tests/obj/
+/Algorithms/BinarySearch/obj/
